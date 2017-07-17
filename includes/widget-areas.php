@@ -173,3 +173,6 @@ function sp_footer_widgets() {
 	echo '</div>';
 }
 add_action( 'genesis_footer', 'sp_footer_widgets', 6 );
+
+// Enable shortcodes in text widgets
+add_filter('widget_text','do_shortcode');
