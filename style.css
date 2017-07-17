@@ -549,10 +549,10 @@ input[type="submit"],
 .more-link {
   background: #27ae60;
   border: 0;
-  border-radius: 1px;
+  border-radius: 999px;
   color: #ffffff;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 12px;
   letter-spacing: 0.146em;
   padding: 1em 2.8em;
@@ -583,7 +583,9 @@ input[type="reset"].secondary,
 input[type="submit"].secondary,
 .button.secondary,
 .secondary.more-link {
-  background: #333;
+  background: transparent;
+  box-shadow: inset 0 0 0 2px #27ae60;
+  color: #212121;
 }
 
 button.secondary:hover,
@@ -592,7 +594,8 @@ input[type="reset"].secondary:hover,
 input[type="submit"].secondary:hover,
 .button.secondary:hover,
 .secondary.more-link:hover {
-  background: #333;
+  background: #27ae60;
+  color: #ffffff;
 }
 
 button.small,
