@@ -185,7 +185,7 @@ textarea:focus,
 }
 
 a {
-	color: #c3251d;
+	color: #2196f3;
 	text-decoration: underline;
 }
 
@@ -452,7 +452,7 @@ input[type="submit"]:focus,
 input[type="submit"]:hover,
 .button:focus,
 .button:hover {
-	background-color: #c3251d;
+	background-color: #2196f3;
 	color: #fff;
 }
 
@@ -807,20 +807,15 @@ th:first-child {
 	font-size: 2rem;
 }
 
-.entry-title {
-	font-size: 36px;
-	font-size: 3.6rem;
-}
-
 .entry-title a,
 .sidebar .widget-title a {
-	color: #333;
+	color: #212121;
 	text-decoration: none;
 }
 
 .entry-title a:focus,
 .entry-title a:hover {
-	color: #c3251d;
+	color: #2196f3;
 }
 
 .widget-title {
@@ -984,7 +979,7 @@ img.alignright,
 }
 
 .sidebar .enews-widget input[type="submit"] {
-	background-color: #c3251d;
+	background-color: #2196f3;
 	color: #fff;
 }
 
@@ -1053,7 +1048,7 @@ img.alignright,
 
 .title-area {
 	float: left;
-	padding: 10px 0;
+	padding: 20px 0;
 	width: 300px;
 }
 
@@ -1069,16 +1064,17 @@ img.alignright,
 }
 
 .site-title {
+	font-family: 'Poppins', -apple-system, "San Francisco", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
 	font-size: 30px;
 	font-size: 3rem;
 	font-weight: 700;
 	line-height: 1.2;
+	letter-spacing: -2px;
 }
 
 .site-title a,
 .site-title a:focus,
 .site-title a:hover {
-	color: #333;
 	text-decoration: none;
 }
 
@@ -1095,6 +1091,7 @@ img.alignright,
 	font-size: 1.6rem;
 	font-weight: 400;
 	line-height: 1.5;
+	display: none;
 }
 
 .site-description,
@@ -1149,7 +1146,7 @@ img.alignright,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover  {
-	color: #c3251d;
+	color: #2196f3;
 	text-decoration: underline;
 }
 
@@ -1345,7 +1342,7 @@ p.entry-meta {
 .archive-pagination a:focus,
 .archive-pagination a:hover,
 .archive-pagination .active a {
-	background-color: #c3251d;
+	background-color: #2196f3;
 	color: #fff;
 }
 
@@ -1758,7 +1755,7 @@ p.entry-meta {
 	.sub-menu-toggle:hover {
 		background-color: #fff;
 		border-width: 0;
-		color: #c3251d;
+		color: #2196f3;
 	}
 
 	.menu-toggle {
