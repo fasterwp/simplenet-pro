@@ -1625,7 +1625,7 @@ p.entry-meta {
 
 	.content,
 	.site-header .widget-area {
-		width: 900px;
+		width: 800px;
 	}
 
 	.sidebar-content-sidebar .content,
@@ -1664,7 +1664,10 @@ p.entry-meta {
 		width: 740px;
 	}
 
-	.content,
+	.content {
+		width: 620px;
+	}
+
 	.site-header .widget-area {
 		width: 720px;
 	}
