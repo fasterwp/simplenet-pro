@@ -37,6 +37,30 @@ genesis_widget_area( 'front-page-1', array(
 	'before' => '<div class="front-page-1 widget-area"><div class="wrap">',
 	'after'  => '</div></div>',
 ) );
-
+// Display front-page-2 widget area.
+genesis_widget_area( 'front-page-2', array(
+	'before' => '<div class="front-page-2 widget-area"><div class="wrap">',
+	'after'  => '</div></div>',
+) );
+// Display front-page-3 widget area.
+genesis_widget_area( 'front-page-3', array(
+	'before' => '<div class="front-page-3 widget-area"><div class="wrap">',
+	'after'  => '</div></div>',
+) );
+// Display front-page-4 widget area.
+genesis_widget_area( 'front-page-4', array(
+	'before' => '<div class="front-page-4 widget-area"><div class="wrap">',
+	'after'  => '</div></div>',
+) );
+// Display front-page-5 widget area.
+genesis_widget_area( 'front-page-5', array(
+	'before' => '<div class="front-page-5 widget-area"><div class="wrap">',
+	'after'  => '</div></div>',
+) );
+// Display front-page-6 widget area.
+genesis_widget_area( 'front-page-6', array(
+	'before' => '<div class="front-page-6 widget-area"><div class="wrap">',
+	'after'  => '</div></div>',
+) );
 // Display Footer.
 get_footer();

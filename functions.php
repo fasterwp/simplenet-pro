@@ -156,7 +156,50 @@ function genesis_sample_comments_gravatar( $args ) {
 genesis_register_widget_area(
 	array(
 		'id'          => "front-page-1",
-		'name'        => __( "Front Page 1", 'my-theme-text-domain' ),
-		'description' => __( "This is the front page 1 section.", 'my-theme-text-domain' ),
+		'name'        => __( "Front Page 1", 'genesis-sample' ),
+		'description' => __( "This is the front page 1 section.", 'genesis-sample' ),
 	)
 );
+// Register front-page-2 widget areas.
+genesis_register_widget_area(
+	array(
+		'id'          => "front-page-2",
+		'name'        => __( "Front Page 2", 'genesis-sample' ),
+		'description' => __( "This is the front page 2 section.", 'genesis-sample' ),
+	)
+);
+// Register front-page-3 widget areas.
+genesis_register_widget_area(
+	array(
+		'id'          => "front-page-3",
+		'name'        => __( "Front Page 3", 'genesis-sample' ),
+		'description' => __( "This is the front page 3 section.", 'genesis-sample' ),
+	)
+);
+// Register front-page-4 widget areas.
+genesis_register_widget_area(
+	array(
+		'id'          => "front-page-4",
+		'name'        => __( "Front Page 4", 'genesis-sample' ),
+		'description' => __( "This is the front page 4 section.", 'genesis-sample' ),
+	)
+);
+// Register front-page-5 widget areas.
+genesis_register_widget_area(
+	array(
+		'id'          => "front-page-5",
+		'name'        => __( "Front Page 5", 'genesis-sample' ),
+		'description' => __( "This is the front page 5 section.", 'genesis-sample' ),
+	)
+);
+// Register front-page-6 widget areas.
+genesis_register_widget_area(
+	array(
+		'id'          => "front-page-6",
+		'name'        => __( "Front Page 6", 'genesis-sample' ),
+		'description' => __( "This is the front page 6 section.", 'genesis-sample' ),
+	)
+);
+
+// Enable shortcodes in text widgets
+add_filter('widget_text','do_shortcode');
