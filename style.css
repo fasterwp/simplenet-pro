@@ -1049,7 +1049,7 @@ img.alignright,
 .title-area {
 	float: left;
 	padding: 20px 0;
-	width: 300px;
+	width: 200px;
 }
 
 .header-image .title-area {
@@ -1111,7 +1111,7 @@ img.alignright,
 .site-header .widget-area {
 	float: right;
 	text-align: right;
-	width: 800px;
+	width: 900px;
 }
 
 
@@ -1120,11 +1120,12 @@ img.alignright,
 
 .genesis-nav-menu {
 	clear: both;
-	font-size: 16px;
-	font-size: 1.6rem;
-	font-weight: 700;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: 400;
 	line-height: 1;
 	width: 100%;
+	text-transform: uppercase;
 }
 
 .genesis-nav-menu .menu-item {
@@ -1147,7 +1148,7 @@ img.alignright,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover  {
 	color: #2196f3;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .genesis-nav-menu .sub-menu {
@@ -1542,7 +1543,7 @@ p.entry-meta {
 	bottom: 0;
 	left: 0;
 	pointer-events: none;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.6);
 }
 
 .front-page-1 .wrap {
@@ -1560,6 +1561,10 @@ p.entry-meta {
 	margin-top: 20px;
 	text-transform: uppercase;
 	padding: 10px 30px;
+}
+.front-page-1 h1 {
+	font-size: 50px;
+	font-size: 5rem;
 }
 
 .header-scroll .site-header {
@@ -1609,7 +1614,7 @@ p.entry-meta {
 
 	.content,
 	.site-header .widget-area {
-		width: 800px;
+		width: 900px;
 	}
 
 	.sidebar-content-sidebar .content,
@@ -1650,7 +1655,7 @@ p.entry-meta {
 
 	.content,
 	.site-header .widget-area {
-		width: 620px;
+		width: 720px;
 	}
 
 	.sidebar-content-sidebar .content,
