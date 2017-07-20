@@ -41,8 +41,8 @@ include_once( get_stylesheet_directory() . '/lib/woocommerce/woocommerce-output.
 include_once( get_stylesheet_directory() . '/lib/woocommerce/woocommerce-notice.php' );
 
 // Child theme (do not remove).
-define( 'CHILD_THEME_NAME', 'Genesis Sample' );
-define( 'CHILD_THEME_URL', 'http://www.studiopress.com/' );
+define( 'CHILD_THEME_NAME', 'Simplenet Pro' );
+define( 'CHILD_THEME_URL', 'http://simplenet.ro/' );
 define( 'CHILD_THEME_VERSION', '2.3.0' );
 
 // Enqueue Scripts and Styles.
@@ -50,7 +50,10 @@ add_action( 'wp_enqueue_scripts', 'genesis_sample_enqueue_scripts_styles' );
 function genesis_sample_enqueue_scripts_styles() {
 
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Poppins:400,700', array(), CHILD_THEME_VERSION );
-	wp_enqueue_style( 'dashicons' );
+	
+	// Line awesome.
+	wp_enqueue_style( 'line-awesome', 'https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css' );
+
 
 	$suffix = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
 	wp_enqueue_script( 'genesis-sample-responsive-menu', get_stylesheet_directory_uri() . "/js/responsive-menus{$suffix}.js", array( 'jquery' ), CHILD_THEME_VERSION, true );
@@ -69,9 +72,9 @@ function genesis_sample_responsive_menu_settings() {
 
 	$settings = array(
 		'mainMenu'          => __( 'Menu', 'genesis-sample' ),
-		'menuIconClass'     => 'dashicons-before dashicons-menu',
+		'menuIconClass'     => 'fa-before fa-navicon',
 		'subMenu'           => __( 'Submenu', 'genesis-sample' ),
-		'subMenuIconsClass' => 'dashicons-before dashicons-arrow-down-alt2',
+		'subMenuIconsClass' => 'fa-before fa-angle-down',
 		'menuClasses'       => array(
 			'combine' => array(
 				'.nav-primary',
