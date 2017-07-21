@@ -1593,6 +1593,17 @@ p.entry-meta {
     background-color: #f5f7f9;
 }
 
+.front-page-3 i {
+    color: #2196f3;
+    font-size: 2.8rem;
+    left: 0;
+    position: absolute;
+}
+.front-page-3 .one-third {
+    padding: 0 0 50px 40px;
+    position: relative;
+}
+
 .header-scroll .site-header {
 	background-color: #fff;
 	padding: 0;
@@ -1925,8 +1936,8 @@ p.entry-meta {
 
 	body,
 	body > div {
-		font-size: 18px;
-		font-size: 1.8rem;
+		font-size: 16px;
+		font-size: 1.6rem;
 	}
 
 	.site-inner {
