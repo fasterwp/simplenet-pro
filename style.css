@@ -841,6 +841,7 @@ th:first-child {
 	font-size: 18px;
 	font-size: 1.8rem;
 	margin-bottom: 20px;
+	text-transform: uppercase;
 }
 
 /* ## WordPress
@@ -983,18 +984,13 @@ img.alignright,
 /* ## Genesis eNews Extended
 --------------------------------------------- */
 
-.sidebar .enews-widget,
-.sidebar .enews-widget .widget-title {
+.sidebar .enews-widget {
+	padding: 40px;
 	color: #fff;
 }
 
 .sidebar .widget.enews-widget {
-	background-color: #333;
-}
-
-.sidebar .enews-widget input,
-.sidebar .enews-widget input:focus {
-	border: 1px solid #333;
+	background-color: #27ae60;
 }
 
 .sidebar .enews-widget input[type="submit"] {
@@ -1437,8 +1433,7 @@ p.entry-meta {
 }
 
 .sidebar .widget {
-	background-color: #fff;
-	padding: 40px;
+	padding-bottom: 20px;
 }
 
 
@@ -1638,6 +1633,28 @@ p.entry-meta {
 	}
 
 }
+
+/* Custom style by Andrei */
+
+.full-width-content .entry-title {
+	text-align: center;
+	padding-bottom: 20px;
+	padding-bottom: 2rem;
+}
+
+.full-width-content .entry-header::after {
+	background: #2196f3;
+	content: '';
+	display: block;
+	height: 3px;
+	margin: 0 auto 40px;
+	width: 50px;
+}
+
+body.full-width-content {
+	background-color: #fff;
+}
+	
 
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
