@@ -1448,6 +1448,23 @@ li.pingback, li.comment>article {
 	background-color: #eee;
 }
 
+.comment-author {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.says {
+    display: none;
+}
+
+.comment-time a {
+    font-size: 14px;
+    font-size: 1.4rem;
+    color: #777;
+	font-style: italic;
+	text-decoration: none;
+}
+
 /* # Sidebars
 ---------------------------------------------------------------------------------------------------- */
 
