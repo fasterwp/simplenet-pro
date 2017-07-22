@@ -1630,12 +1630,18 @@ li.pingback, li.comment>article {
 .front-page-4,
 .front-page-5,
 .front-page-6 {
-	padding: 50px 0;
+	padding: 80px 0;
 }
 
-.front-page-2, .front-page-4, .front-page-6 {
+.front-page-2, .front-page-4 {
     background-color: #f5f7f9;
 }
+
+ .front-page-6 {
+	background-color: #2c3e50;
+	color: #fff;
+	text-align: center;
+ }
 
 .front-page-3 i {
     color: #2196f3;
