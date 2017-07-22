@@ -1368,7 +1368,6 @@ p.entry-meta {
 .comment-respond,
 .entry-comments,
 .entry-pings {
-	background-color: #fff;
 	font-size: 16px;
 	font-size: 1.6rem;
 	margin-bottom: 40px;
@@ -1380,7 +1379,7 @@ p.entry-meta {
 }
 
 .entry-comments {
-	padding: 60px;
+	padding: 0 60px;
 }
 
 .comment-list li {
@@ -1422,6 +1421,32 @@ p.entry-meta {
 	display: none;
 }
 
+li.pingback, li.comment>article {
+    background: #fff;
+    padding: 40px;
+    -moz-border-radius: 0 40px 40px 40px;
+    -webkit-border-radius: 0 40px 40px 40px;
+}
+
+.comment-reply-link {
+	background-color: #ddd;
+	border: 0;
+	border-radius: 999px;
+	color: #777;
+	cursor: pointer;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight: 600;
+	padding: 12px 36px;
+	text-decoration: none;
+	text-transform: uppercase;
+	white-space: normal;
+	width: auto;
+}
+
+.comment-reply-link:hover {
+	background-color: #eee;
+}
 
 /* # Sidebars
 ---------------------------------------------------------------------------------------------------- */
