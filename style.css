@@ -770,9 +770,11 @@ th:first-child {
 .after-entry,
 .archive-description,
 .author-box {
+	background: #2c3e50;
+	color: #fff;
 	font-size: 18px;
 	font-size: 1.8rem;
-	padding: 40px 0;
+	padding: 60px;
 }
 
 .archive-description p:last-child,
