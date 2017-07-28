@@ -1712,32 +1712,36 @@ body.full-width-content {
 	background-color: #fff;
 }
 
-.pricing-table .one-fourth {
+.pricing-table .one-fourth,
+.pricing-woo .one-third {
     margin: 20px 5px;
     padding: 10px;
     text-align: center;
 	border: 1px solid #eee;
 	background: #f5f7f9;
 }
-.pricing-table .one-fourth h2 {
+.pricing-table .one-fourth h2,
+.pricing-woo .one-third h2 {
     border-bottom: 2px solid #27ae60;
     padding: 20px 0 30px;
 }
-.pricing-table .one-fourth ul {
+.pricing-table .one-fourth ul,
+.pricing-woo .one-third ul {
     margin-left: 0;
 }
-.pricing-table .one-fourth ul li {
+.pricing-table .one-fourth ul li,
+.pricing-woo .one-third ul li {
     border-bottom: 1px solid #eee;
     margin-bottom: 10px;
     padding: 10px;
     list-style-type: none;
 }
-.pricing-table .one-fourth .amount {
+.pricing-table .one-fourth .amount,
+.pricing-woo .one-third .amount{
     font-size: 36px;
     text-align: center;
     color: #bdc3c7;
 }
-	
 
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
