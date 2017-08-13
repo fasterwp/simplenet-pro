@@ -1707,7 +1707,11 @@ li.pingback, li.comment>article {
 	margin: 0 auto 40px;
 	width: 50px;
 }
-
+.front-page-2 .vertical-spacer {
+	border-bottom: 1px solid #ddd;
+	margin: 60px auto;
+	width: 25%;
+}
 body.full-width-content {
 	background-color: #fff;
 }
