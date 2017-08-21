@@ -1646,12 +1646,6 @@ li.pingback, li.comment>article {
 	text-align: center;
  }
 
- .front-page-2 .vertical-spacer {
-	border-bottom: 1px solid #ddd;
-	margin: 60px auto;
-	width: 25%;
-}
-
 .front-page-3 i {
     color: #2196f3;
     font-size: 2.8rem;
@@ -1742,11 +1736,20 @@ body.full-width-content {
     padding: 10px;
     list-style-type: none;
 }
-.pricing-table .one-fourth .amount,
-.pricing-woo .one-third .amount{
+.amount{
     font-size: 36px;
     text-align: center;
     color: #bdc3c7;
+}
+
+.vertical-spacer {
+	border-bottom: 1px solid #ddd;
+	margin: 30px auto;
+	width: 75%;
+}
+
+.clearfix {
+	margin: 40px auto;
 }
 
 /*  First sidebar widget has a different style, you can use for CTA
